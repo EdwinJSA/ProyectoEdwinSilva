@@ -1,0 +1,161 @@
+*{
+    --color1: rgb(228, 0, 0);
+    --color2: rgb(150, 150, 150); 
+    --color3: rgb(87, 203, 241);
+    --color4: rgb(0, 223, 0);
+    --color5: rgb(255, 136, 0);
+    --color6: white; 
+    font-family:'Prompt', sans-serif;;
+}
+
+body{
+    background: url("assets/img/fondos/fondo2.png");
+    
+}
+nav{
+    background: var(--color2);
+}
+
+.nav-link{
+    color: var(--color6);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.nav-link:hover{
+    font-size: 1.3rem;
+    background: var(--color6);
+    color: var(--color1);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.prinlogo{
+    height: 5rem;
+}
+
+.titulo{
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+
+.letrero{
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.cards{
+    margin: 5px;
+    height: 20rem;
+    background: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.cards:hover{
+    height: 21rem;
+}
+
+.imgcard{
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.typeproducto{
+    font-size: 1rem;
+    color: var(--color4);
+}
+
+.catalogo{
+    background: var(--color1);
+    border-radius: 10px;
+    padding: 0.1rem;
+    color: var(--color6);
+}
+
+.catalogo:hover{
+    background: var(--color3);
+    color: var(--color6);
+    font-weight: bold;
+    font-style: none;
+}
+
+p{
+    color: var(--color3);
+}
+
+.imgcard:hover{
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+.banner1{
+    background: red;
+}
+
+.banner2{
+    background: orange;
+}
+
+.banner3{
+    background: green;
+}
+
+.redes{
+    height: 5rem;
+}
+
+.footer{
+    background: var(--color2);
+}
+
+
+h5{
+    font-family: 'Ephesis', cursive;
+    font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+
+.iconup{
+    height: 2rem;
+}
+
+#myBtn {
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(255, 255, 255); /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: rgb(255, 0, 0); /* Add a dark-grey background on hover */
+}
